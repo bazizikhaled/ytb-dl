@@ -67,6 +67,9 @@ fi
 save_location=/home/kh/Media
 playlist_directory="$save_location/$playlist_name"
 
+if [ ! -d "$playlist_directory" ]; then
+  mkdir "$playlist_directory"
+fi
 
 if [ $download_choice -eq 1 ]; then
   # Download audio from the playlist
