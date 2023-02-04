@@ -8,8 +8,10 @@ git clone https://github.com/bazizikhaled/ytb-dl.git
 cd ytb-dl 
 chmod +x ytb.sh 
 ```
-edit the save_location (where to save videos) 
-and playlist_file (and file with urls of your playlists)
+Update the save_location (the location where the videos will be saved) and the playlist_file (the file containing the URLs of your playlists) in the ytb.sh file.
+
+Update your playlists file with the desired playlists
 ```
 ./ytb.sh
 ```
+
