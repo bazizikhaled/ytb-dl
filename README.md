@@ -8,6 +8,8 @@ git clone https://github.com/bazizikhaled/ytb-dl.git
 cd ytb-dl 
 chmod +x ytb.sh 
 ```
+edit the save_location= 
+and playlist_file
 ```
 ./ytb.sh
 ```
