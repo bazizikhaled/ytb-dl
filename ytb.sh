@@ -63,7 +63,7 @@ if ! [[ $download_choice =~ ^[12]$ ]]; then
     echo "Error: Invalid choice"
     exit 1
 fi
-
+# location to save videos and to save them in file named with playlist name
 save_location=/home/kh/Media
 playlist_directory="$save_location/$playlist_name"
 
